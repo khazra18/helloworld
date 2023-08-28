@@ -12,7 +12,7 @@ public class MyController {
 	@GetMapping("/hello")
 	public String myHellowWorld() {
 		log.info("Hello world from log");
-		return "Hello world Jenkins updated";
+		return "Hello world Jenkins updated for today";
 	}
 	
 
