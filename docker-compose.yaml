@@ -2,7 +2,6 @@ version: '3.7'
 
 services:
   hello-world:
-    image: helloworld
-    mem_limit: 700m
+    build: .
     ports:
       - "8080:8080"
